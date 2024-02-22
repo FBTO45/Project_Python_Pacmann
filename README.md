@@ -41,15 +41,15 @@ This project aims to create a self-service cashier system with the following flo
 
 ## Explanation of Attributes and Methods
 
-1. 	The `items` attribute has a list type, used to store all items in the transaction.
-2. 	The `total_price` attribute has the float type, used to store the total price of an item after discounts.
-3. 	The `discount` attribute has the float type, used to store the total amount of discount obtained.
+1. 	The `items` attribute has a `list type,` used to store all items in the transaction.
+2. 	The `total_price` attribute has the `float type,` used to store the total price of an item after discounts.
+3. 	The `discount` attribute has the `float type,` used to store the total amount of discount obtained.
 4. 	The `self.items` attribute is a reference to the items attribute in the instance (object) created.
-5. 	The `self.total_price` attribute is a reference to the total_price attribute in the instance (object) created.
+5. 	The `self.total_price` attribute is a reference to the `total_price` attribute in the instance (object) created.
 6. 	The `self.discount` attribute is a reference to the discount attribute in the instance (object) created.
-7. 	Method `add_item(self, item)` to add items to the transaction into a list of items containing three elements, including: `item name [0], number of items [1], and price per item [2]`.
+7. 	Method `add_item(self, item)` to `add items` to the transaction into a list of items containing three elements, including: `item name [0], number of items [1], and price per item [2]`.
 8. 	The `update_item_name(self, item_name, new_item)` method is used to update the item name. It has two parameters, `item_name` is the name of a previously existing `item,` and `new_item` is the name of the `new item`.
-9. 	The `update_item_quantity(self, item_name, new_quantity)` method is used to update the number of items. It has two parameters, item_name is the name of the item whose quantity you want to update, and new_quantity is the number of new items.
+9. 	The `update_item_quantity(self, item_name, new_quantity)` method is used to update the number of `items`. It has two parameters, item_name is the name of the item whose quantity you want to update, and new_quantity is the number of new items.
 10. The `update_item_price(self, item_name, new_price)` method is used to update the item price. It has two parameters, `item_name` is the name of the item whose price you want to update, and new_price is the price of the new item.
 11. Method `delete_item(self, item_name)` to delete items from the transaction. The `item_name` parameter is the name of the item you want to delete.
 12.	Method `reset_transaction(self)` to empty or delete all items from the shopping cart. 
