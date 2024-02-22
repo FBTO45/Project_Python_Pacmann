@@ -26,7 +26,6 @@ class Transaction:
         try:
             if len(item) != 3:
                 raise ValueError("Item harus berupa list dengan tiga elemen.")
-            name, qty, price = item
             self.items.append(item)
             print(f"Item '{item[0]}' ditambahkan.")
         except ValueError as e:
