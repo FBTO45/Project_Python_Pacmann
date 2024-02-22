@@ -2,7 +2,7 @@
 
 <p align='center'>
   <a href="https://app.diagrams.net/">
-  <img src="https://img.shields.io/badge/app.diagrams.net-ff4500?style=for-the-badge&logo=google-drawing&logoColor=white"/></a>&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/app.diagrams.net-ff4500?style=for-the-badge&logo=google-Flowchart&logoColor=white"/></a>&nbsp;&nbsp;
 <a href="https://colab.research.google.com/">
   <img src="https://img.shields.io/badge/colab.research.google.com-ff4500?style=for-the-badge&logo=google-colab&logoColor=white"/></a>&nbsp;&nbsp;
 <a href="https://python.org/en/">
