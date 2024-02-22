@@ -1,5 +1,5 @@
 <p align='center'>
-    <center><summary><strong>Tool Dan Referensi Github</strong></summary></center>
+    <center>Tool Dan Referensi Github</center>
 <a href="https://python.org/en/">
     <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/></a>&nbsp;&nbsp;
 <a href="https://github.com/putusetya/LMS-Project">
