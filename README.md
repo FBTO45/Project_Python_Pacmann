@@ -47,8 +47,8 @@ This project aims to create a self-service cashier system with the following flo
 4. 	The `self.items` attribute is a reference to the items attribute in the instance (object) created.
 5. 	The `self.total_price` attribute is a reference to the total_price attribute in the instance (object) created.
 6. 	The `self.discount` attribute is a reference to the discount attribute in the instance (object) created.
-7. 	Method `add_item(self, item)` to add items to the transaction into a list of items containing three elements, including: item name [0], number of items [1], and price per item [2].
-8. 	The `update_item_name(self, item_name, new_item)` method is used to update the item name. It has two parameters, item_name is the name of a previously existing item, and new_item is the name of the new item.
+7. 	Method `add_item(self, item)` to add items to the transaction into a list of items containing three elements, including: `item name [0], number of items [1], and price per item [2]`.
+8. 	The `update_item_name(self, item_name, new_item)` method is used to update the item name. It has two parameters, `item_name` is the name of a previously existing `item,` and `new_item` is the name of the `new item`.
 9. 	The `update_item_quantity(self, item_name, new_quantity)` method is used to update the number of items. It has two parameters, item_name is the name of the item whose quantity you want to update, and new_quantity is the number of new items.
 10. The `update_item_price(self, item_name, new_price)` method is used to update the item price. It has two parameters, `item_name` is the name of the item whose price you want to update, and new_price is the price of the new item.
 11. Method `delete_item(self, item_name)` to delete items from the transaction. The `item_name` parameter is the name of the item you want to delete.
@@ -59,50 +59,89 @@ This project aims to create a self-service cashier system with the following flo
 # Test Case
 ## Test Case 1
 Menambahkan 2 item menggunakan method `add_item`.
+
+**Inputnya adalah:**<br />
 ## Test Case 1
 `print("Test Case 1")`
 
-1. `trnsct_123.add_item(["Ayam Goreng", 2, 20000])`
-2. `trnsct_123.add_item(["Pasta Gigi", 3, 15000])`
-3. `print("Item yang dibeli adalah: ", trnsct_123.items)`
+`trnsct_123.add_item(["Ayam Goreng", 2, 20000])`
+`trnsct_123.add_item(["Pasta Gigi", 3, 15000])`
+`print("Item yang dibeli adalah: ", trnsct_123.items)`
 
 **Outputnya adalah:**<br />
 ![image](img/Test_Case_1.png)
 
 ## Test Case 2
 Menghapus item menggunakan method `delete_item`.
+
+**Inputnya adalah:**<br />
 ## Test Case 2
 `print("Test Case 2")`
 
-1. `trnsct_123.delete_item("Pasta Gigi")`
-2. `print("Item yang dibeli adalah: ", trnsct_123.items)`
+`trnsct_123.delete_item("Pasta Gigi")`
+`print("Item yang dibeli adalah: ", trnsct_123.items)`
 
 **Outputnya adalah:**<br />
 ![image](img/Test_Case_2.png)
 
 ## Test Case 3
 Menghapus semua item menggunakan method `reset_transaction`.
+
+**Inputnya adalah:**<br />
 ## Test Case 3
 `print("Test Case 3")`
 
-1. `trnsct_123.reset_transaction()`
+`trnsct_123.reset_transaction()`
 
 **Outputnya adalah:**<br />
 ![image](img/Test_Case_3.png)
 
 ## Test Case 4
-Menambah item belanja dan menghitung total belanja dengan method `hitung_total_price`.
+Menambah item belanja dengan method `add_item`.
 
 **Inputnya adalah:**<br />
+## Test Case 4
+`print("Test Case 4")`
+
 ## Test Case 4
 `print("Test Case 4")`
 
 `trnsct_123.add_item(["Ayam goreng", 2, 20000])`
 `trnsct_123.add_item(["Pasta gigi", 3, 15000])`
 `trnsct_123.add_item(["Mainan mobil", 1, 200000])`
-`add_item(["Mie instan", 5, 3000])`
+`trnsct_123.add_item(["Mie instan", 5, 3000])`
 `print(trnsct_123.items)`
 `print(" ")`
 
 **Outputnya adalah:**<br />
-![image](img/Test_Case_2.png)
+![image](img/Test_Case_4.png)
+
+## Test Case 5
+Pemesanan check order belanja dengan method `check_order`.
+
+**Inputnya adalah:**<br />
+## Test Case 5
+`print("Test Case 5")`
+`trnsct_123.check_order()`
+
+**Outputnya adalah:**<br />
+![image](img/Test_Case_5.png)
+
+
+## Test Case 6
+menghitung total belanja dengan method `total_price`.
+
+**Inputnya adalah:**<br />
+## Test Case 6
+`print("Test Case 6")`
+
+`trnsct_123.total_price()`
+`print(" ")`
+
+**Outputnya adalah:**<br />
+![image](img/Test_Case_6.png)
+
+
+
+
+
