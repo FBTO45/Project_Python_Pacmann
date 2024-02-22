@@ -69,4 +69,40 @@ Menambahkan 2 item menggunakan method `add_item`.
 **Outputnya adalah:**<br />
 ![image](img/Test_Case_1.png)
 
+## Test Case 2
+Menghapus item menggunakan method `delete_item`.
+## Test Case 2
+`print("Test Case 2")`
 
+1. `trnsct_123.delete_item("Pasta Gigi")`
+2. `print("Item yang dibeli adalah: ", trnsct_123.items)`
+
+**Outputnya adalah:**<br />
+![image](img/Test_Case_2.png)
+
+## Test Case 3
+Menghapus semua item menggunakan method `reset_transaction`.
+## Test Case 3
+`print("Test Case 3")`
+
+1. `trnsct_123.reset_transaction()`
+
+**Outputnya adalah:**<br />
+![image](img/Test_Case_3.png)
+
+## Test Case 4
+Menambah item belanja dan menghitung total belanja dengan method `hitung_total_price`.
+
+**Inputnya adalah:**<br />
+## Test Case 4
+`print("Test Case 4")`
+
+`trnsct_123.add_item(["Ayam goreng", 2, 20000])`
+`trnsct_123.add_item(["Pasta gigi", 3, 15000])`
+`trnsct_123.add_item(["Mainan mobil", 1, 200000])`
+`add_item(["Mie instan", 5, 3000])`
+`print(trnsct_123.items)`
+`print(" ")`
+
+**Outputnya adalah:**<br />
+![image](img/Test_Case_2.png)
