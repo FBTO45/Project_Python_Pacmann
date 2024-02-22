@@ -68,9 +68,9 @@ This project aims to create a self-service cashier system with the following flo
 
 # Test Case
 ## Test Case 1
-Menambahkan 2 item menggunakan method `add_item`.
+Add 2 items using the `add_item` method.
 
-**Inputnya adalah:**<br />
+**The input is:**<br />
 ## Test Case 1
 `print("Test Case 1")`
 
@@ -78,38 +78,38 @@ Menambahkan 2 item menggunakan method `add_item`.
 `trnsct_123.add_item(["Pasta Gigi", 3, 15000])`
 `print("Item yang dibeli adalah: ", trnsct_123.items)`
 
-**Outputnya adalah:**<br />
+**The output is:**<br />
 ![image](img/Test_Case_1.png)
 
 ## Test Case 2
-Menghapus item menggunakan method `delete_item`.
+Deletes items using the `delete_item` method.
 
-**Inputnya adalah:**<br />
+**The input is:**<br />
 ## Test Case 2
 `print("Test Case 2")`
 
 `trnsct_123.delete_item("Pasta Gigi")`
 `print("Item yang dibeli adalah: ", trnsct_123.items)`
 
-**Outputnya adalah:**<br />
+**The output is:**<br />
 ![image](img/Test_Case_2.png)
 
 ## Test Case 3
-Menghapus semua item menggunakan method `reset_transaction`.
+Deletes all items using the `reset_transaction` method.
 
-**Inputnya adalah:**<br />
+**The input is:**<br />
 ## Test Case 3
 `print("Test Case 3")`
 
 `trnsct_123.reset_transaction()`
 
-**Outputnya adalah:**<br />
+**The output is:**<br />
 ![image](img/Test_Case_3.png)
 
 ## Test Case 4
-Menambah item belanja dengan method `add_item`.
+Add shopping items with the `add_item` method.
 
-**Inputnya adalah:**<br />
+**The input is:**<br />
 ## Test Case 4
 `print("Test Case 4")`
 
@@ -123,32 +123,32 @@ Menambah item belanja dengan method `add_item`.
 `print(trnsct_123.items)`
 `print(" ")`
 
-**Outputnya adalah:**<br />
+**The output is:**<br />
 ![image](img/Test_Case_4.png)
 
 ## Test Case 5
-Pemesanan check order belanja dengan method `check_order`.
+Order shopping check orders using the `check_order` method.
 
-**Inputnya adalah:**<br />
+**The input is:**<br />
 ## Test Case 5
 `print("Test Case 5")`
 `trnsct_123.check_order()`
 
-**Outputnya adalah:**<br />
+**The output is:**<br />
 ![image](img/Test_Case_5.png)
 
 
 ## Test Case 6
-menghitung total belanja dengan method `total_price`.
+calculate total expenditure with the `total_price` method.
 
-**Inputnya adalah:**<br />
+**The input is:**<br />
 ## Test Case 6
 `print("Test Case 6")`
 
 `trnsct_123.total_price()`
 `print(" ")`
 
-**Outputnya adalah:**<br />
+**The output is:**<br />
 ![image](img/Test_Case_6.png)
 
 
