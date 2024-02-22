@@ -1,7 +1,7 @@
 #### Tool Dan Referensi Github
 <p align='center'>
 <a href="https://colab.research.google.com/">
-  <img src="https://img.shields.io/badge/colab.research.google.com-ff4500?style=for-the-badge&logo=github&logoColor=white"/></a>&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/colab.research.google.com-ff4500?style=for-the-badge&logo=colab&logoColor=white"/></a>&nbsp;&nbsp;
 <a href="https://python.org/en/">
     <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/></a>&nbsp;&nbsp;
 <a href="https://github.com/putusetya/LMS-Project">
