@@ -12,7 +12,7 @@
 <a href="https://github.com/jamiebuilds/documentation-handbook">
   <img src="https://img.shields.io/badge/jamiebuilds/documentation-handbook-2F 4F 4F?style=for-the-badge&logo=github&logoColor=white"/></a>&nbsp;&nbsp;
 <a href="https://www.industrialempathy.com/posts/design-docs-at-google/">
-  <img src="https://img.shields.io/badge/jamiebuilds/posts/design-docs-at-google-2F 4F 4F?style=for-the-badge&logo=design&logoColor=white"/></a>&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/www.industrialempathy.com/posts/design-docs-at-google/-2F 4F 4F?style=for-the-badge&logo=design&logoColor=white"/></a>&nbsp;&nbsp;
 </p>
 
 # <summary><strong>Hi there :wave: , I'm Goo!</strong></summary>
