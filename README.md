@@ -155,3 +155,8 @@ calculate total expenditure with the `total_price` method.
 
 <p>Self-service cashier system is created using the Python programming language to make it easier for customers to carry out shopping transactions. This system has some features such as adding items, updating item names, updating the number of items, updating item prices, deleting one item, deleting all items, calculating the total item price and discounts obtained, and displaying a shopping table.</p>
 
+Because this cashier system has a self-service concept, the features still can be developed to be more user friendly, such as:
+
+- Using input features to help the customers to add and update/change items that they want to buy without have to type the item's name manually.
+- Providing shopping catalog or list of available items in the supermarket that is connected to the database to minimize the errors.
+
