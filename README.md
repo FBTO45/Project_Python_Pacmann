@@ -45,7 +45,7 @@ This project aims to create a self-service cashier system with the following flo
 
 ## Flowchart
 
-![Teks alternatif](img/Flowchart.jpg)
+![Teks alternatif](img/Flowchart.png)
 
 
 
